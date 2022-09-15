@@ -2,7 +2,7 @@ class Board:
 
     size = 0
     board = [[]]
-    charcters = 
+    charcters = {}
 
     def __init__(self, size):
         self.size = size
@@ -11,17 +11,17 @@ class Board:
     def add(self, board_element, x, y):
         self.board[x][y] = board_element
 
-    def executeInstruction(self, instruction):
-        if instruction.type == "M":
-            
-        elif instruction.type == "P":
+    #def executeInstruction(self, instruction):
+    #    if instruction.type == "M":
+    #        
+    #    elif instruction.type == "P":
+    #
+    #    elif instruction.type == "R":
+    #
+    #    elif instruction.type == "A":
+    #
 
-        elif instruction.type == "R":
-
-        elif instruction.type == "A":
-
-
-    def findCharacter(self, type):
+    #def findCharacter(self, type):
 
     #Hay que definir que los zombies y supervivientes no puedan salir del mapa
 
