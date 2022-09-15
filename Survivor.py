@@ -5,14 +5,16 @@ class Survivor:
     backpackItems = []
     leftHandItem = None
     rightHandItem = None
-    #x=0
-    #y=0
+    x=0
+    y=0
 
-    def __init__(self, name, life, experience):
+    def __init__(self, name, life, experience, x, y):
 
         self.name = name
         self.life = life
         self.experience = experience
+        self.x = x
+        self.y = y
 
     def addItem(self, position, item):
         success = False

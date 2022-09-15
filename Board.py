@@ -5,7 +5,11 @@ class Board:
 
     size = 0
     board = [[]]
+<<<<<<< HEAD
     characters = {}
+=======
+    charcters = {}
+>>>>>>> eb44e3e5c7fc82d7802f814b111fffea77a6e273
 
     def __init__(self, size):
         self.size = size
@@ -15,6 +19,7 @@ class Board:
         self.board[x][y] = board_element
         self.characters[board_element.name] = {"x":x, "y":y, "element": board_element}
 
+<<<<<<< HEAD
     def executeInstruction(self, instruction):
         if instruction.type == "M":
             character_position = self.characters[instruction.character_name]
@@ -42,6 +47,19 @@ class Board:
         elif movement == "Left":
             self.add(self, character_position.element, character_position.x-1, character_position.y)
        
+=======
+    #def executeInstruction(self, instruction):
+    #    if instruction.type == "M":
+    #        
+    #    elif instruction.type == "P":
+    #
+    #    elif instruction.type == "R":
+    #
+    #    elif instruction.type == "A":
+    #
+
+    #def findCharacter(self, type):
+>>>>>>> eb44e3e5c7fc82d7802f814b111fffea77a6e273
 
     #Hay que definir que los zombies y supervivientes no puedan salir del mapa
 
