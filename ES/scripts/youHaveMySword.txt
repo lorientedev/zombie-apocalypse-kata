@@ -1,0 +1,9 @@
+2 1 0 3 2     
+2 0 2 0 1 Bart 
+Katana LeftHand
+Molotov Backpack
+2 0 1 0 0 Lisa
+BaseballBat LeftHand
+Zombicillo 2 0
+P Lisa BaseballBat Backpack
+P Bart Molotov RightHand

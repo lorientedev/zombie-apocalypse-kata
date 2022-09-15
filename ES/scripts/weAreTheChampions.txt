@@ -1,0 +1,14 @@
+2 3 0 4 5
+3 0 2 0 3 Bart
+Handgun LeftHand
+Machete RightHand
+3 0 1 0 0 Lisa
+BaseballBat LeftHand
+Zombicillo 0 0
+ZombiLoco 1 3
+ZombiVaquero 0 3
+A Lisa Zombicillo BaseballBat 1
+A ZombiVaquero Bart Bite 1
+A Bart ZombiLoco Handgun 1
+A ZombiVaquero Bart Bite 1
+A Bart ZombiVaquero Machete 1

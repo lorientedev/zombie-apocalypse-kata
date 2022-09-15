@@ -1,0 +1,13 @@
+## Puntuación del reto: hasta 22 puntos 
+- El software debe generar el log de salida con el estado final del escenario. De no hacerlo, no puntúa (el log de salida puede presentarse también en la interfaz gráfica). Si el log se muestra en la interfaz gráfica, debe poder copiarse a un fichero de texto plano. El ejemplo de mapa que se incluye en el enunciado es solo una sugerencia, la implementación gráfica no tiene porque ser igual.
+- Cada Instrucción implementada correctamente suma puntos:
+  - Movimiento -> 1 punto
+  - Recoger equipamiento -> 2 puntos
+  - Mover equipamiento -> 2 puntos
+  - Atacar -> 4 puntos
+  - Ganar partida -> 1 punto
+- Las bolas extras puntúan 1 punto más si el apartado correspondiente esta completo
+- Los errores de ejecución (bugs) restan puntos
+- Jurado independiente valora subjetivamente del 0 al 10 lo siguiente:
+  - Interfaz gráfica
+  - Código

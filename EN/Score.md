@@ -1,0 +1,13 @@
+## Challenge score: up to 22 points 
+- The software must generate the output log with the final state of the scenario. Failure to do so will result in no points (the output log can also be displayed on the graphical interface). If the log is displayed on the graphical interface, it must be possible to copy it to a plain text file. The example map included in the statement is only a suggestion, the graphical implementation does not have to be the same.
+- Each correctly implemented Instruction scores points:
+  - Movement -> 1 point
+  - Pick up equipment -> 2 points
+  - Move equipment -> 2 points
+  - Attack -> 4 points
+  - Win game -> 1 point
+- Extra balls score 1 point more if the corresponding section is completed.
+- Bugs subtract points.
+- Independent jury subjectively evaluates the following on a scale of 0 to 10:
+  - Graphical interface
+  - Code

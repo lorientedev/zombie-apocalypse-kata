@@ -1,0 +1,9 @@
+2 1 0 3 5
+2 0 0 0 1 Bart
+2 0 0 0 0 Lisa
+Zombicillo 2 0
+M Bart Up
+M Lisa Right
+M Zombicillo Left
+M Bart Down
+M Lisa Up
